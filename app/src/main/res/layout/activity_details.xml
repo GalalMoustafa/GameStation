@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/console_text_details_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/game_console_description"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/ps4"
+        android:textColor="@color/colorPrimaryText"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/details_console_text"
+        app:layout_constraintTop_toBottomOf="@+id/game_card_container_detials"
+        tools:text="PS4" />
+
+    <TextView
+        android:id="@+id/price_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/sansregular"
+        android:contentDescription="@string/price_description"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toStartOf="@id/price_sign_details"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/details_price_text"
+        app:layout_constraintTop_toBottomOf="@+id/console_text_details_view"
+        tools:text="30.00" />
+
+    <TextView
+        android:id="@+id/price_sign_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/colorAccentSecondary"
+        android:textSize="20sp"
+        android:contentDescription="@string/price_sign_description"
+        android:textStyle="normal|bold"
+        android:text="@string/dollar_sign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/console_text_details_view"
+        tools:text="$" />
+
+    <TextView
+        android:id="@+id/location_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:contentDescription="@string/user_location_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/details_location_text"
+        app:layout_constraintTop_toBottomOf="@+id/price_sign_details"
+        tools:text="Alexandria" />
+
+    <TextView
+        android:id="@+id/seller_name_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="@color/colorPrimaryText"
+        android:contentDescription="@string/user_name_description"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/details_seller_text"
+        app:layout_constraintTop_toBottomOf="@+id/location_details"
+        tools:text="Galal" />
+
+    <TextView
+        android:id="@+id/seller_mobile_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="@color/colorPrimaryText"
+        android:contentDescription="@string/user_mobile_description"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/details_mobile_text"
+        app:layout_constraintTop_toBottomOf="@+id/seller_name_details"
+        tools:text="01098688064" />
+
+    <TextView
+        android:id="@+id/details_console_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/console"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_card_container_detials" />
+
+    <TextView
+        android:id="@+id/details_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/price"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_console_text" />
+
+    <TextView
+        android:id="@+id/details_location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/location"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_price_text" />
+
+    <TextView
+        android:id="@+id/details_seller_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/seller_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_location_text" />
+
+    <TextView
+        android:id="@+id/details_mobile_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/seller_mobile"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_seller_text" />
+
+    <TextView
+        android:id="@+id/game_status_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/button_background"
+        android:elevation="2dp"
+        android:fontFamily="@font/marker"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:contentDescription="@string/game_condition_description"
+        android:paddingTop="8dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="8dp"
+        android:text="@string/new_text"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        app:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/game_card_container_detials"
+        app:layout_constraintEnd_toEndOf="@+id/game_card_container_detials"
+        tools:text="New" />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/game_card_container_detials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="1dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_details">
+
+        <ImageView
+            android:id="@+id/game_image_details"
+            android:layout_width="220dp"
+            android:layout_height="280dp"
+            android:contentDescription="@string/game_image_description"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_details"
+            app:srcCompat="@drawable/placeholder_games_cover" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

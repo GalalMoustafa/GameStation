@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "628387939332",
+    "firebase_url": "https://gamesatation-8f6ae.firebaseio.com",
+    "project_id": "gamesatation-8f6ae",
+    "storage_bucket": "gamesatation-8f6ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628387939332:android:06c35445dc0b93d3",
+        "android_client_info": {
+          "package_name": "com.somago.gamestation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628387939332-ap8lf8pd0piaak8gdrr1tdadogr00vtl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.somago.gamestation",
+            "certificate_hash": "d798d34d685c7f51635b838dcf9c75792e9c5af5"
+          }
+        },
+        {
+          "client_id": "628387939332-7pam06dp2mrv7es03dsi938d8nlm1bnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.somago.gamestation",
+            "certificate_hash": "4450ea64a7f9bb86387114b8e5b5e59be3d74afa"
+          }
+        },
+        {
+          "client_id": "628387939332-n3lgmlrk780uee6s8qa442meg5ee4kqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJNJXNG_zuEmsQLbK5jsG2pgqCOxZnO0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628387939332-n3lgmlrk780uee6s8qa442meg5ee4kqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

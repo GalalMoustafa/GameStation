@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/button_background">
+
+    <TextView
+        android:id="@+id/games_widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sansregular"
+        android:textSize="24sp"
+        android:background="@drawable/card_background"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        tools:text="@string/ps4"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <GridView
+        android:id="@+id/games_widget_grid"
+        android:layout_marginTop="8dp"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

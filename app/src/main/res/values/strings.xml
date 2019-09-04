@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Game Station</string>
+    <string name="game_station_text">Game Station</string>
+    <string name="email_address_text">Email address</string>
+    <string name="password_text">Password</string>
+    <string name="sign_up_with_email">Sign up with Email</string>
+    <string name="continue_with_google_text">Continue With Google</string>
+    <string name="log_in_text">Log in</string>
+    <string name="user_data_text">User Data</string>
+    <string name="confirm_password_text">Confirm Password</string>
+    <string name="login_data_text">Login Data</string>
+    <string name="full_name_text">Full Name</string>
+    <string name="mobile_number_text">Mobile number (Optional)</string>
+    <string name="address_text">Address (Optional)</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="sign_out_text">Sign out</string>
+    <string name="new_text">New</string>
+    <string name="used_text">Used</string>
+    <string name="all_text">All</string>
+    <string name="sell_a_game">Sell a Game</string>
+    <string name="add_image">Add Image</string>
+    <string name="game_name">Game Name</string>
+    <string name="pc">Pc</string>
+    <string name="ps4">PS4</string>
+    <string name="xbox_one">Xbox One</string>
+    <string name="used">Used</string>
+    <string name="sell_now">Sell Now</string>
+    <string name="game_image_in_details_view">game image in details view</string>
+    <string name="dialog_image_picler_title">Pick an Image from...</string>
+    <string name="dilaog_picker_gallery_option">From Gallery</string>
+    <string name="dialog_picker_camera_option">With Camera</string>
+    <string name="console">Console</string>
+    <string name="price">Price</string>
+    <string name="location">Location</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="seller_mobile">Seller Mobile</string>
+    <string name="seller_email">Seller Email</string>
+    <string name="not_available">Not available</string>
+    <string name="dollar_sign">$</string>
+    <string name="image_added_text">Image Added Successfuly</string>
+    <string name="please_wait">Please Wait...</string>
+
+    <string name="login_tag">Login</string>
+    <string name="signup_tag">SignupFragment</string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="pass_not_matched">Password isn\'t matched</string>
+    <string name="not_valid_email">Email is not valid.</string>
+    <string name="missed_data">Data is missing, please enter your Data to Complete sign up.</string>
+    <string name="success_signup">Successfully signed up.</string>
+    <string name="fail_signup">Error on sign up, please try again and check internet connection.</string>
+    <string name="name_required">Name is required.</string>
+    <string name="enter_email_and_pass">Enter Your email and password first.</string>
+    <string name="success_signin">Successfully Signed in.</string>
+    <string name="GoogleSignIn">GoogleSignIn</string>
+    <string name="additional_info_request">Singed up Successfully please add your additional info.</string>
+    <string name="publish_game_error">Error while publish Your game. try again and check your internet connection.</string>
+    <string name="publish_game_success">Game Published Successfully.</string>
+    <string name="image_upload_error">Failed to upload image </string>
+    <string name="image_temp_dir">images/</string>
+    <string name="camera_permission_denied">Camera permission denied.</string>
+    <string name="storage_permission_denied">Storage permission denied.</string>
+    <string name="game_data_missed">Please fill all game data sections. all sections are mandatory.</string>
+    <string name="game_bundle_name">Game</string>
+    <string name="id_data_field">id</string>
+
+
+    <string name="collection_users">users</string>
+    <string name="collection_games">games</string>
+
+
+    <!-- content Description -->
+    <string name="game_image_description">This is an image of game post.</string>
+    <string name="game_condition_description">This is the condition of the game.</string>
+    <string name="game_console_description">This is the console of the game.</string>
+    <string name="game_text_description">This is a text of game name.</string>
+    <string name="price_description">This is game price text.</string>
+    <string name="price_sign_description">This is game price currency.</string>
+    <string name="sell_btn_description">This is button to sell a game.</string>
+    <string name="user_location_description">This is the location of the game seller.</string>
+    <string name="user_name_description">This is the name of the game seller.</string>
+    <string name="user_mobile_description">This is the mobile number of the game seller.</string>
+    <string name="radio_group_description">This is radio buttons group to filter displayed games with their condition.</string>
+    <string name="tab_group_description">This is tabs to filter displayed games with their console.</string>
+    <string name="add_game_description">This a button to add an image to the game you want to sell.</string>
+    <string name="pick_image_from_camera">This is an option to pick game image from camera.</string>
+    <string name="pick_image_from_gallery">This is an option to pick game image from gallery.</string>
+    <string name="radio_condition_sell_description">This is radio group to choose the condition of the game you want to sell.</string>
+    <string name="radio_console_sell_description">This is radio group to choose the console of the game you want to sell.</string>
+    <string name="ps4_text_description">PS4 console.</string>
+    <string name="xbox_text_description">Xbox One Console.</string>
+    <string name="pc_text_description">PC Console.</string>
+    <string name="new_text_description">New Condition.</string>
+    <string name="used_text_description">Used Condition.</string>
+
+    <string name="login_button_description">This a button to login with your entered email and password.</string>
+    <string name="google_button_description">This a button to continue in the app with your google account.</string>
+    <string name="signup_button_description">This a button to sign up in the app with your email.</string>
+
+</resources>

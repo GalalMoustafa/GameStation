@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/card_background"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/game_image_card"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/game_image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_games_cover" />
+
+    <TextView
+        android:id="@+id/game_title_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/game_text_description"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Game Title" />
+
+    <TextView
+        android:id="@+id/game_price_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/price_description"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="30.00$" />
+
+
+</LinearLayout>
+
+
