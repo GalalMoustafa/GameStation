@@ -52,6 +52,7 @@
                 android:layout_height="56dp"
                 android:src="@drawable/ic_add_black_24dp"
                 android:tint="@color/colorPrimary"
+                android:contentDescription="@string/add_image_button_description"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
